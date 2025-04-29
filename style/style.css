@@ -5,6 +5,9 @@
 
 .main{
     font-family: 'HDColton', sans-serif;
+    width: 1903px;
+
+
 }
 @font-face {
     font-family: 'HDColton';
@@ -36,7 +39,7 @@ header {
 }
 
 .bestseller_img {
-    background: url("img/image14.png") no-repeat center center;
+    background: url("img/background.png") no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -236,7 +239,6 @@ header {
 .round-btn:active::before {
     content: '';
     position: absolute;
-    width: 0;
     height: 8px;
     border-radius: 8px;
     background-color: #F17E00;
@@ -263,7 +265,7 @@ header {
     font-family: sans-serif;
 }
 .offers_content1{
-    background: linear-gradient(to bottom, #483B26, #4A4A4A66 40%) , url("img/image 9.png") no-repeat center center;
+    background: linear-gradient(to bottom, #483B26, #4A4A4A66 40%) , url("img/room3.png") no-repeat center center;
     width: 349px;
     height: 526px;
     border-radius: 24px;
@@ -286,7 +288,7 @@ header {
 }
 
 .offers_content2{
-    background: linear-gradient(to bottom, #262C48, #7E808266 40%) , url("img/png1.png") no-repeat center center;
+    background: linear-gradient(to bottom, #262C48, #7E808266 40%) , url("img/sofa2.png") no-repeat center center;
     background-size: cover, auto;
     background-position: center top, center calc(100% - 47px);
     width: 349px;
@@ -454,7 +456,7 @@ input{
 }
 .reviews{
     width: 100%;
-    height: 485px;
+    height: 400px;
     background-color: white;
 }
 .reviews_content{
@@ -464,6 +466,133 @@ input{
     align-items: center;
     margin-top: 105px;
     font-size: 48px;
-    font-family: sans-serif;
+    font-weight: 300;
+    gap: 57px;
+}
+.reviews_commit{
+    display: flex;
+    gap: 57px;
+}
+.map{
+    background: url("img/map.png") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 610px;
+    display: flex;
+}
+.pointmap{
+    display: flex;
+    margin-left: 630px;
+    margin-top: 140px;
+    width: 68px;
+    height: 64px;
+}
+.map_info{
+    background-color: #FEFEFE;
+    width: 359px;
+    height: 226px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    margin-top: 186px;
+    margin-left: 223px;
+    align-items: center;
+}
+.map_info_content img{
+    margin-top: 16px;
+}
+.map_info_content {
+    padding-bottom: 15px;
+}
 
+.map_info_content span {
+    display: block;
+    margin-left: -10px;
+}
+
+.map_info_content span:not(.map_text) {
+    margin-top: 40px;
+}
+
+.map_text {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.end{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 248px;
+}
+.end_content_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: start;
+    margin-left: 107px;
+    margin-top: 83px;
+    margin-bottom: 64px;
+}
+.end_content_header p{
+    margin-top: 53px;
+    min-height: 200px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: absolute;
+    right: 83px;
+    margin-top: 46px;
+}
+.list_content{
+    display: flex;
+    flex-direction: column;
+}
+.list_content2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.head_list{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.end_content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.orange_line {
+    background-color: #F17E00;
+    width: 1682px;
+    height: 1px;
+    margin: 0 auto;
+}
+
+.end_content_text {
+    margin-top: 42px;
+    font-size: 14px;
+    color: #000;
+    align-self: flex-start;
+    padding-left: 120px;
+}
+.end_content_text img{
+    margin-left: 1435px;
+    margin-top: -50px;
+}
+.text_end{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #000000CC;
+    margin-top: auto;
+    text-align: center;
 }
